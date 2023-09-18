@@ -60,7 +60,7 @@ const { input, handleSubmit, completion, isLoading, error } = useCompletion({
 
       <Divider class="order-2 md:hidden" />
 
-      <aside class="order-1 w-80 space-y-6 md:order-2">
+      <aside class="order-1 space-y-6 md:order-2 md:w-80">
         <VideoUploadForm @onVideoUploaded="handleVideoUploaded" />
 
         <Divider />
