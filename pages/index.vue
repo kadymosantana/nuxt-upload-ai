@@ -22,6 +22,15 @@ const { input, handleSubmit, completion, isLoading, error } = useCompletion({
   headers: { "Content-Type": "applicn/son" },
   body
 });
+
+if (error.value) {
+  toast.add({
+    id: "completion_error",
+    title: error.value.message,
+    icon: "i-heroicons-x-circle",
+    color: "red"
+  });
+}
 </script>
 
 <template>
