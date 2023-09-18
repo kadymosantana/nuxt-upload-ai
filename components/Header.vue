@@ -4,7 +4,7 @@
 
     <div>
       <UButton
-        to="https://github.com/kadymosantana/upload-ai"
+        to="https://github.com/kadymosantana/nuxt-upload-ai"
         target="_blank"
         size="md"
         color="white"
