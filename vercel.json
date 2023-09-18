@@ -1,11 +1,12 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nuxtjs",
   "functions": {
-    "server/api/*": {
+    "api/*.ts": {
       "maxDuration": 60
     },
 
-    "server/api/**/**/*": {
+    "api/**/*.ts": {
       "maxDuration": 60
     }
   }
