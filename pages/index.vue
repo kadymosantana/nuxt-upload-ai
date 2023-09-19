@@ -19,7 +19,7 @@ const body = computed(() => {
 
 const { input, handleSubmit, completion, isLoading, error } = useCompletion({
   api: "/api/completion",
-  headers: { "Content-Type": "applicn/son" },
+  headers: { "Content-Type": "application/json" },
   body
 });
 
